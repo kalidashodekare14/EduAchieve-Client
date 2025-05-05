@@ -1,0 +1,12 @@
+.banner1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.295),rgba(0,0,0,0.5)), url(../../../public/banner/banner.jpeg);
+}
+.banner2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.295),rgba(0,0,0,0.5)), url(../../../public/banner/banner2.jpg);
+}
+.banner3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.295),rgba(0,0,0,0.5)), url(../../../public/banner/banner3.jpg);
+}
+.banner4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.295),rgba(0,0,0,0.5)), url(../../../public/banner/banner4.jpg);
+}
