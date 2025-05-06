@@ -49,12 +49,12 @@ const Banner = () => {
             >
                 {
                     bannerInfo.map(info => (
-                        <SwiperSlide>
-                            <div style={{ backgroundImage: `url(${info.image})` }} className='flex flex-col justify-center items-left px-20  h-[85vh] bg-center bg-cover'>
-                                <div className='w-[40%] space-y-2'>
-                                    <h1 className='text-4xl'>{info.title}</h1>
-                                    <p>{info.description}</p>
-                                    <button className='btn bg-[#219ebc] outline-0 text-white bordr-0'>Apply for Admission</button>
+                        <SwiperSlide key={info.id}>
+                            <div style={{ backgroundImage: `url(${info.image})` }} className='flex flex-col justify-center font-rubik items-left lg:px-20 px-5  lg:h-[85vh] h-[80vh] bg-center bg-cover'>
+                                <div className='lg:w-[40%] space-y-2'>
+                                    <h1 className='text-4xl text-white '>{info.title}</h1>
+                                    <p className='text-[#d4d4d4]'>{info.description}</p>
+                                    <button className='btn bg-[#219ebc] border-0 shadow-none outline-0 text-white bordr-0'>Apply for Admission</button>
                                 </div>
                             </div>
                         </SwiperSlide>
